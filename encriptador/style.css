@@ -1,0 +1,135 @@
+* {
+    background: #b2dafa;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 3%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    font-style: italic ;
+    margin-top: 90px;
+    text-transform: lowercase;
+    /*minusculas*/
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.mensaje {
+    height: 740px;
+    background: white;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    font-style: italic ;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.mensaje::placeholder{
+    color: #2271b3;
+    font-style: italic ;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.botones{
+    display: flex ;
+    margin-top: 18px;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-encriptar:hover {
+    background-color: white ;
+    color:#0A3871 ;
+    transform: scale(1);
+}
+
+
+.btn-desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-desencriptar:hover {
+    background-color:  #0A3871;
+    color: white;
+    transform: scale(1);
+}
+
+.btn-copiar{
+    border: 1px solid #0A3871;
+    background-color: #2271b3;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 140px;
+    margin-top: 690px;
+    position: absolute;
+    width: 336px;
+    
+}
+
+.btn-copiar:hover {
+    background-color: #0A3871 ;
+    color:white ;
+    transform: scale(1);
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+    font-style: bold;
+
+}
+
+footer, p {
+    color: #495057;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    
+}
